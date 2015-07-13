@@ -1,0 +1,9 @@
+so far calculates sc.stats.chi2_contingency() for two categorical pd.DataFrame cols
+
+Example usage:
+
+
+import chi2_two_cols
+import pandas as pd
+df = pd.read_csv('test_data_for_chi_square.csv')
+chi2_two_cols.run(df,'var1','var2')
