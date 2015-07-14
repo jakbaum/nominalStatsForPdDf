@@ -1,9 +1,10 @@
-so far calculates sc.stats.chi2_contingency() for two categorical pd.DataFrame cols
+Takes a dataframe with two columns containing nominal scaled data. Computes Chi²-Test for Independence, it's p-value and Cramer's V.
+
+Output is a list.
+
 
 Example usage:
-
-
 import chi2_two_cols
 import pandas as pd
 df = pd.read_csv('test_data_for_chi_square.csv')
-chi2_two_cols.run(df,'var1','var2')
+print(nominalTest.nominal_corr(df,'var1','var2'))
