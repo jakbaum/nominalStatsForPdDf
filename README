@@ -1,4 +1,4 @@
-Takes a dataframe with two columns containing nominal scaled data. Computes Chi²-Test for Independence, it's p-value and Cramer's V.
+Takes a dataframe with two columns containing nominal scaled data. Computes Chi²-Test for Independence, its p-value and Cramer's V.
 
 Output is a list.
 
